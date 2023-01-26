@@ -1,0 +1,42 @@
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.cards{
+  
+  
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  padding-top: 120px;
+
+ 
+  &_items {
+
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 1px solid lightgray;
+    width: 400px;
+    height: 300px;
+    box-shadow: 5px 5px 5px lightblue;
+    padding: 20px;
+
+    i {
+      text-align: center;
+      color: darkblue;
+    }
+  
+
+    &_about {
+      font-weight: 800;
+      text-align: center;
+      
+
+     
+    }
+  }
+}
